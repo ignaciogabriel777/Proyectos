@@ -13,6 +13,17 @@ errores adecuado para asegurar la integridad de los datos.
 5. **Registrar devoluciones**: Permite registrar la devolución de un libro prestado, y actualizar el estado del libro como "disponible" nuevamente. También se puede registrar el estado del
 libro (nuevo o dañado) al devolverlo.
 
+## Uso
+-Al iniciar el programa, se presentará un menú interactivo con las siguientes opciones:
+
+1. **Agregar un libro**
+2. **Ver la lista de libros**
+3. **Registrarse como usuario**
+4. **Registrar un préstamo**
+5. **Registrar una devolución**
+6. **Salir del sistema**
+-Según la opción seleccionada, el sistema pedirá la información correspondiente (como el título de un libro o el ID de un usuario) y ejecutará la acción deseada.
+
 ## Requisitos
 
 - Python 3.x
