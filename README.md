@@ -23,3 +23,11 @@ libro (nuevo o dañado) al devolverlo.
 
 Puedes instalar la librería 'tabulate' ejecutando el siguiente comando:
 pip install tabulate
+
+## Estructura de la Base de Datos
+
+1. **Libros**: Almacena la información de los libros (id_libro(PK), título, autor, genero, año_publicacion, estado).
+2. **Usuarios**: Contiene los datos de los usuarios (id_usuarios(PK), nombre, correo, fecha_registro).
+3. **Prestamos**: Guarda los registros de los prestamos realizados (id_prestamos(PK), id_usuario(FK), id_libro(FK), usuario, libro, fecha_devolucion, estado).
+4. **Devoluciones**: Registra las devoluciones de los libros, incluyendo el estado del libro al ser devuelto (id_devoluciones(PK), id_prestamos(FK), fecha_devolucion, estado_libro).
+
