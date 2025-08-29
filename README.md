@@ -33,9 +33,6 @@ Segun la opcion seleccionada, el sistema pedira la informacion correspondiente (
   - 're' (para la validación de correos electronicos)
   - 'tabulate' (para mostrar la lista de libros de manera tabulada)
 
-Puedes instalar la librería 'tabulate' ejecutando el siguiente comando:
-pip install tabulate
-
 ## Estructura de la Base de Datos
 
 1. **Libros**: Almacena la información de los libros (id_libro(PK), título, autor, genero, año_publicacion, estado).
